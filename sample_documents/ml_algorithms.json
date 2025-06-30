@@ -1,0 +1,39 @@
+
+{
+    "machine_learning_algorithms": [
+        {
+            "name": "Linear Regression",
+            "type": "Supervised Learning",
+            "description": "A statistical method used to model the relationship between a dependent variable and independent variables",
+            "use_cases": ["Prediction", "Trend Analysis", "Risk Assessment"],
+            "complexity": "Low"
+        },
+        {
+            "name": "Random Forest",
+            "type": "Supervised Learning", 
+            "description": "An ensemble method that combines multiple decision trees to improve prediction accuracy",
+            "use_cases": ["Classification", "Regression", "Feature Selection"],
+            "complexity": "Medium"
+        },
+        {
+            "name": "Neural Networks",
+            "type": "Deep Learning",
+            "description": "Networks of interconnected nodes that mimic the structure of biological neural networks",
+            "use_cases": ["Image Recognition", "NLP", "Pattern Recognition"],
+            "complexity": "High"
+        },
+        {
+            "name": "K-Means Clustering",
+            "type": "Unsupervised Learning",
+            "description": "Algorithm that groups data points into k clusters based on similarity",
+            "use_cases": ["Customer Segmentation", "Data Analysis", "Anomaly Detection"],
+            "complexity": "Medium"
+        }
+    ],
+    "evaluation_metrics": {
+        "classification": ["Accuracy", "Precision", "Recall", "F1-Score"],
+        "regression": ["MAE", "MSE", "RMSE", "R-squared"],
+        "clustering": ["Silhouette Score", "Inertia", "Davies-Bouldin Index"]
+    }
+}
+        

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "digital-agent-bot-{{TEAMS_APP_ID}}",
+  "packageName": "com.company.digitalagent",
+  "developer": {
+    "name": "Your Company Name",
+    "websiteUrl": "https://yourcompany.com",
+    "privacyUrl": "https://yourcompany.com/privacy",
+    "termsOfUseUrl": "https://yourcompany.com/terms"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "Digital Agent",
+    "full": "AI-Powered Digital Agent for Teams"
+  },
+  "description": {
+    "short": "Your intelligent digital assistant",
+    "full": "An AI-powered digital agent that can answer questions, analyze documents, and provide intelligent assistance within Microsoft Teams."
+  },
+  "accentColor": "#0078D4",
+  "bots": [
+    {
+      "botId": "{{BOT_ID}}",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsFiles": true,
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{DOMAIN}}"
+  ],
+  "webApplicationInfo": {
+    "id": "{{AAD_APP_ID}}",
+    "resource": "https://RscBasedStoreApp"
+  }
+} 

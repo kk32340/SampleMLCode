@@ -1,0 +1,31 @@
+# Core Bot Framework dependencies
+botbuilder-core>=4.14.0
+botbuilder-schema>=4.14.0
+botbuilder-integration-aiohttp>=4.14.0
+
+# Web server
+aiohttp>=3.8.0
+
+# AI and ML libraries
+google-generativeai>=0.3.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.20
+langchain-google-genai>=0.0.6
+
+# Document processing
+PyPDF2>=3.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: Enhanced document processing
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0 
